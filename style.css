@@ -1,6 +1,7 @@
 :root {
     /* Colors */
     --darkgrey: #181818;
+    --lightgrey: #B0B0B0;
     --pastlepurple: #C094FF;
     --purple: #761CF7;
     --pinkpurple: #AD00FF;
@@ -22,15 +23,16 @@
 }
 
 /* HEADER */
-header {
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
     padding: 20px 5%;
-    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     z-index: 1;
 }
 
@@ -75,12 +77,12 @@ nav {
 .btn_register {
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    padding: 10px 32px;
+    padding: 7px 30px;
     text-align: center;
     text-decoration: none;
     color: white;
     font-size: 16px;
-    background: linear-gradient(50deg, var(--pinkpurple) 0%, var(--purple) 100%);
+    background: linear-gradient(50deg, var(--purple) 0%, var(--pinkpurple) 100%);
     border-radius: 0px 20px;
     cursor: pointer;
     transition: background 0.6s ease;
@@ -88,28 +90,5 @@ nav {
 }
 
 .btn_register:hover {
-    background: linear-gradient(50deg, #c342ff 0%, #852eff 100%);
-}
-
-.btn_toggle_mode {
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    padding: 10px 16px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    background: var(--darkgrey);
-    border-radius: 20px 0px;
-    cursor: pointer;
-}
-
-.btn_toggle_mode:hover {
-    background: var(--pastlepurple);
-}
-
-hr.line {
-    display: flex;
-    width: 80%;
-    margin-top: 60px; /* Adjust the margin-top value as needed */
+    background: linear-gradient(50deg, #852eff 0%, #c342ff 100%);
 }
