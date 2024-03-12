@@ -5,6 +5,7 @@
     --pastlepurple: #C094FF;
     --purple: #761CF7;
     --pinkpurple: #AD00FF;
+    --hotpink: #FF00E5;
 
     /* Timing */
     --transition: 0.25s;
@@ -26,6 +27,15 @@
 #home{
     width: 100%;
     height: auto;
+}
+
+header{
+    background-image: url(images/banner2.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
 }
 
 .header-container {
@@ -84,23 +94,49 @@ nav {
     background: linear-gradient(50deg, #852eff 0%, #c342ff 100%);
 }
 
-#line{
-    margin: 0 auto;
-    width: 67%;
-    margin-top: 30px;
-    height: 1px;
-    background-color: #181818;
+.header-baner{
+    margin: 100px 100px 100px 0;
+    width: 45%;
+    float: right;
+    color: white;
 }
 
-/* Banner */
-
-.banner-container{
-    width: 100%;
+.header-title{
+    font-size: 400%;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 1.5;
 }
 
-img{
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.pink-text{
+    color: var(--hotpink);
+}
+
+.header-text{
+    margin: 35px 0;
+    width: 80%;
+    font-size: 130%;
+}
+
+.header-button{
+    margin: 10px 0 30px;
+    padding: 8px 40px;
+    font-weight: 500;
+}
+
+.btn_learnmore i{
+    margin: 0 10px;
+    font-size: 35px;
+    color: white;
+}
+
+.btn_learnmore i:hover{
+    transition: 1s;
+    color: var(--hotpink);
+}
+
+
+.btn_learnmore{
+    font-size: 20px;
+    font-weight: 400;
 }
