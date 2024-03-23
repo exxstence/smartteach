@@ -134,3 +134,50 @@
         margin: 80px auto;
     }
 }
+
+@media screen and (max-width: 1100px) {
+    .special-offers h2{
+        text-align: center;
+    }
+    .special-offers p{
+        text-align: center;
+    }
+    .special-offers img{
+        display: none;
+        margin: 0 -50px;
+    }
+    .special-offers{
+      height: 50px;  
+    }
+
+    .column {
+        display: inline;
+        justify-content: center;
+        margin: 0 auto;
+      width: 70%;
+    }
+
+
+}
+
+@media screen and (max-width: 1500px) {
+    .special-offers h2{
+        text-align: center;
+    }
+    .special-offers p{
+        text-align: center;
+    }
+    .special-offers img{
+        display: none;
+    }
+    .special-offers{
+      height: 50px;  
+    }
+
+    .column {
+        display: inline;
+        justify-content: center;
+        margin: 0 auto;
+      width: 70%;
+    }
+}
