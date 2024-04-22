@@ -294,6 +294,7 @@ nav {
     width: 100%;
     font-size: 15px;
     cursor: pointer;
+    color: black;
     justify-content: space-between;
     flex-direction: row-reverse;
     padding: 14px 20px;
