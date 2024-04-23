@@ -526,4 +526,16 @@
       text-align: center;
       float: unset;
     }
+    .column-text {
+      margin: 0 auto;
+      padding: 5px;
+      width: 100%;
+      height: auto;
+    }
+    .ha {
+      height: auto;
+    }
+    .p0 {
+      padding: 0px;
+    }
   }
