@@ -58,7 +58,7 @@
     }
 
     .header-text{
-        margin: 0 auto;
+        margin: 20px auto;
     }
 
     .header-container {
@@ -235,17 +235,19 @@
 
 @media screen and (max-width:1175px){
     .header-baner{
-        width: 50%;
-        margin: 100px 60px 100px 0;
+        width: 100%;
+        margin: 50px auto;
+        padding: 25px 15px;
+        position: inherit;
+
     }
 
     .header-title{
-        font-size: 300%;
+        font-size: 45px !important;
         font-weight: bold;
         margin: 20px 0;
-        line-height: 1.5;
+        line-height: 54px;
     }
-    
 }
 
 
