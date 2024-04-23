@@ -545,15 +545,29 @@
       display: block;
       background-image: url("images/banner-about-us-4.png");
       background-size: cover;
+      position: relative;
+      z-index: 1;
     }
     .mobile-o .section1 {
       width: 100%;
       padding: 25px 0;
       color: #fff;
       text-align: center;
+      position: relative;
+      z-index: 3;
     }
     .mobile-o .violetinis {
       color: #fff !important;
+    }
+    .mobile-o::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 2;
     }
   }
   @media screen and (min-width: 801px){
