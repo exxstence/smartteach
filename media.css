@@ -538,4 +538,29 @@
     .p0 {
       padding: 0px;
     }
+    .desktop-o {
+      display: none;
+    }
+    .mobile-o {
+      display: block;
+      background-image: url("images/banner-about-us-4.png");
+      background-size: cover;
+    }
+    .mobile-o .section1 {
+      width: 100%;
+      padding: 25px 0;
+      color: #fff;
+      text-align: center;
+    }
+    .mobile-o .violetinis {
+      color: #fff !important;
+    }
+  }
+  @media screen and (min-width: 801px){
+    .desktop-o {
+      display: flex;
+    }
+    .mobile-o {
+      display: none;
+    }
   }
