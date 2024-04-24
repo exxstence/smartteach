@@ -206,16 +206,48 @@
         display: none;
     }
     .special-offers{
-      height: 50px;  
+      height: auto;  
     }
-
     .column {
         display: flex;
         justify-content: center;
         margin: 30px auto;
         width: 70%;
     }
+}
 
+@media screen and (min-width: 801px) and (max-width: 1499px){
+  .card {
+    height: auto;
+  }
+  .card h2 {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .column-special {
+    width: 100%;
+  }
+  .column.p0 {
+    width: 30%;
+    padding: 0;
+  }
+  .header-title {
+    font-size: 300%;
+    line-height: 1.5;
+  }
+  .header-baner {
+    width: 40%;
+    margin: 100px 60px 100px 0;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1175px){
+  .header-baner {
+    text-align: center;
+  }
+  p.header-text {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width:1407px){
@@ -249,19 +281,8 @@
         line-height: 54px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
   
-  @media (max-width: 1300px) {
+@media (max-width: 1300px) {
   
     .contact__card{
       display: none;
@@ -526,6 +547,8 @@
       text-align: center;
       float: unset;
     }
+  }
+  @media screen and (max-width: 1023px){
     .column-text {
       margin: 0 auto;
       padding: 5px;
@@ -570,7 +593,7 @@
       z-index: 2;
     }
   }
-  @media screen and (min-width: 801px){
+  @media screen and (min-width: 1024px){
     .desktop-o {
       display: flex;
     }

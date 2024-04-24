@@ -161,7 +161,7 @@ nav {
     float: left;
     width: 25%;
     padding: 0 45px;
-    height: 400px;
+    height: auto;
 }
   
 .row {
