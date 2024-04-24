@@ -148,7 +148,34 @@
     }
     
     .header-text{
-        font-size: 150%;
+        font-size: 19px;;
+    }
+    .ht {
+      display: none;
+    }
+    header {
+      min-height: 100%;
+    }
+    .header-baner {
+      padding: 20px 0 !important;
+      margin: 20px auto !important;
+    }
+    h1.header-title {
+      font-size: 25px !important;
+      line-height: 32px !important;
+    }
+    .card {
+      height: auto;
+    }
+    #services .row .column {
+      width: 100%;
+    }
+    .contact-button {
+      width: 100%;
+    }
+    .section1-elements {
+      width: 100%;
+      padding: 15px;
     }
 }
 
