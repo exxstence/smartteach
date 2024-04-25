@@ -161,8 +161,8 @@
       margin: 20px auto !important;
     }
     h1.header-title {
-      font-size: 28px !important;
-      line-height: 33px !important;
+      font-size: 2.2rem !important;
+      line-height: 2.6rem !important;
     }
     .card {
       height: auto;
@@ -218,8 +218,19 @@
         margin: -30px auto;
         width: 70%;
     }
+}
 
+@media screen and (min-width: 461px) and (max-width: 509px){
+  .tc .header-title {
+    font-size: 2.2rem !important;
+    line-height: 2.6rem;
+  }
+}
 
+@media screen and (min-width: 760px) and (max-width: 1175px) {
+  .header-baner.tc {
+    padding: 25px 10% !important;
+  }
 }
 
 @media screen and (max-width: 1500px) {
