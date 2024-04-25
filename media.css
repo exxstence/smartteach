@@ -639,3 +639,24 @@
       display: none;
     }
   }
+
+  @media screen and (max-width: 1175px) {
+    header {
+      margin: 0;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: inherit;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 2;
+    }
+    .header-baner {
+      z-index: 3;
+      left:unset;
+    }
+  }
